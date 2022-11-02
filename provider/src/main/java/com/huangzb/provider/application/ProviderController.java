@@ -11,7 +11,7 @@ public class ProviderController {
     String port;
 
     @GetMapping("/hi")
-    public String hi(@RequestParam(value = "name", defaultValue = "forezp",required = false) String name) {
+    public String hi(@RequestParam(value = "name", defaultValue = "huangzb",required = false) String name) {
         return "hello " + name + ", i'm provider ,my port:" + port;
 
     }

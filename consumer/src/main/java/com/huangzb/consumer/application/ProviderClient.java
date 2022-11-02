@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface ProviderClient {
 
     @GetMapping("/hi")
-    String hi(@RequestParam(value = "name", defaultValue = "forezp", required = false) String name);
+    String hi(@RequestParam(value = "name", defaultValue = "huangzb", required = false) String name);
 }
